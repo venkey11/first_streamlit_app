@@ -20,7 +20,7 @@ fruits_list = pd.read_csv('https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw
 
 #setting up a pick list
 fruits = fruits_list.set_index('Fruit')
-sm.multiselect('Pick up the fruits you like',list(fruits.index)['Avacado','Strawberries'])
+sm.multiselect('Pick up the fruits you like: ',list(fruits.index),['Avacado','Strawberries'])
 
 sm.dataframe(fruits_list)
 
