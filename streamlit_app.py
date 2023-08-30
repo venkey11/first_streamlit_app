@@ -18,6 +18,10 @@ sm.text('🐔🍞 Hard-Boiled Free-Range Egg')
 #import using pandas
 fruits_list = pd.read_csv('https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt')
 
+#setting up a pick list
+
+sm.multiselect('Pick up the fruits you like',list(fruits_list.index))
+
 sm.dataframe(fruits_list)
 
           
