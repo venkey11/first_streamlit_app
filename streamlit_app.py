@@ -10,7 +10,7 @@ sm.text('Finish Certifications of the above')
 
 #Breakfast cooking time
 sm.header('This is cooking session - Time to cook!')
-streamlit.text('🥗 Omega 3 & Blueberry Oatmeal')
-streamlit.text('🥑 Kale, Spinach & Rocket Smoothie')
-streamlit.text('🐔🍞 Hard-Boiled Free-Range Egg')
+sm.text('🥗 Omega 3 & Blueberry Oatmeal')
+sm.text('🥑 Kale, Spinach & Rocket Smoothie')
+sm.text('🐔🍞 Hard-Boiled Free-Range Egg')
           
